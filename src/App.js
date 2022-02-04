@@ -16,15 +16,7 @@ function App() {
 
   useEffect(() => {
     const loadData = async function () {
-      const response = await fetch(
-        "https://itunes.apple.com/search?term=jack+johnson&limit=25", {
-          mode: 'no-cors',
-          method: "get",
-          headers: {
-                "Content-Type": "application/json"
-          },
-        }
-      );
+      const response = await fetch("https://itunes.apple.com/search?term=adele&enitity=album&limit=25");
       const data = await response.json();
       console.log(data);
     };
