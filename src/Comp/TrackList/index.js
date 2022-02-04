@@ -2,7 +2,7 @@ import react from "react";
 import Track from "../Track";
 const TrackList = ({ results }) => {
   console.log();
-  const tracks = results.map((e) => {
+  const tracks = results.map((e, index) => {
     if (e.wrapperType == "track") {
       return (
         <Track
@@ -11,6 +11,7 @@ const TrackList = ({ results }) => {
           img={e.artworkUrl100}
           album={e.collectionName}
           audioPrev={e.previewUrl}
+          key={index}
         />
       );
     }

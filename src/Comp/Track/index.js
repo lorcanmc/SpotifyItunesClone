@@ -1,6 +1,6 @@
 import react from "react";
 
-const Track = ({ title, artist, img, album, audioPrev }) => {
+const Track = ({ title, artist, img, album, audioPrev, id }) => {
   return (
     <li>
       <h2>{title}</h2>
