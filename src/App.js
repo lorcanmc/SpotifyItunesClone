@@ -1,34 +1,26 @@
 import logo from "./soc-logo.svg";
 import "./App.css";
-
-import { useEffect } from "react";
+import Input from "./Comp/Input/index"
+import { useEffect,useState } from "react";
+import TrackList from "./Comp/TrackList";
 
 function App() {
-  // useEffect(() => {
-  //   const loadData = async function () {
-  //   const response = await fetch(API_URL);
-  //   const data = await response.json();
-  //   setRecipes(data);
-  //   console.log(data);
-  // };
-  //   loadData();
-  // }, [query]);
-
+  const [query,setQuery]=useState("")
+  const [results,setResults]=useState([])
   useEffect(() => {
     const loadData = async function () {
-      const response = await fetch("https://itunes.apple.com/search?term=adele&enitity=album&limit=25");
+      const response = await fetch(`https://itunes.apple.com/search?term=${query}&media=music&enitity=album&limit=25`);
       const data = await response.json();
       console.log(data);
+      setResults(data.results)
     };
     loadData();
-  }, []);
+  }, [query]);
 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hackathon Friday</p>
-      </header>
+      <Input query={query} setQuery={setQuery}/>
+      <TrackList results={results}/>
     </div>
   );
 }
