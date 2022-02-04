@@ -1,5 +1,6 @@
 import react from "react";
 import Track from "../Track";
+import "./index.css"
 const TrackList = ({ results }) => {
   console.log();
   const tracks = results.map((e, index) => {
