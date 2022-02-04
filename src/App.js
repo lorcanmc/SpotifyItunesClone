@@ -4,25 +4,15 @@ import Input from "./Comp/Input/index";
 import { useEffect, useState } from "react";
 import TrackList from "./Comp/TrackList";
 import useFetch from "./Hooks/useFetch.js";
+import Header from "./Comp/Header";
 
 function App() {
   const [query, setQuery] = useState("");
   const response = useFetch(query);
 
-  // useEffect(() => {
-  //   const loadData = async function () {
-  //     const response = await fetch(
-  //       `https://itunes.apple.com/search?term=${query}&media=music&enitity=album&limit=25`
-  //     );
-  //     const data = await response.json();
-  //     console.log(data);
-  //     setResults(data.results);
-  //   };
-  //   loadData();
-  // }, [query]);
-
   return (
     <div className="App">
+      <Header />
       <Input query={query} setQuery={setQuery} />
       <TrackList results={response} />
     </div>
