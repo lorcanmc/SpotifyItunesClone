@@ -1,0 +1,21 @@
+.mainWindowLinks {
+    margin: 60px auto;
+    color: rgb(167, 167, 167);
+
+}
+
+.mainWindowLinks ul li {
+    color: var(--main-text-color);
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.mainWindowLinks a {
+    text-decoration: none;
+}
+.mainWindowLinks a:visited {
+    color: inherit;
+}
+

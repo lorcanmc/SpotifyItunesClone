@@ -1,20 +1,23 @@
-import logo from "./soc-logo.svg";
-import "./App.css";
+import css from "./App.module.css";
 import Input from "./Comp/Input/index";
 import { useEffect, useState } from "react";
-import TrackList from "./Comp/TrackList";
 import useFetch from "./Hooks/useFetch.js";
-import Header from "./Comp/Header";
+import SideBar from "./Comp/SideBar";
+import Main from "./Comp/Main";
+import MusicPlayer from "./Comp/MusicPlayer";
 
 function App() {
   const [query, setQuery] = useState("");
-  const response = useFetch(query);
+  const tracks = useFetch(query);
+  const [currentSong, setCurrentSong] = useState({});
+  console.log(currentSong)
+
 
   return (
-    <div className="App">
-      <Header />
-      <Input query={query} setQuery={setQuery} />
-      <TrackList results={response} />
+    <div className={css.wrapper}>
+      <SideBar query={query} setQuery={setQuery} />
+      <Main tracks={tracks} setCurrentSong={setCurrentSong} />
+      <MusicPlayer currentSong={currentSong} />
     </div>
   );
 }

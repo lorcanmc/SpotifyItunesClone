@@ -1,0 +1,29 @@
+.sidebar {
+    background: linear-gradient(#29302b, #000000);
+    color: var(--main-text-color); 
+    padding: 10px 40px;
+    color: rgb(167, 167, 167);
+}
+
+.sidebar > * {
+    margin: 15px 0;
+}
+
+.sidebarIcon {
+    opacity: 0.7;
+}
+
+.sidebar p {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.sidebarSmall {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+hr {
+    opacity: 0.5;
+}
+

@@ -1,0 +1,11 @@
+
+
+
+.tracklist {
+    padding: 30px 5%;
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 30px 1.5% ;
+}

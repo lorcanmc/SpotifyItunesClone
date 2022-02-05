@@ -1,20 +1,22 @@
 import react from "react";
-import "./track.css"
-const Track = ({ title, artist, img, album, audioPrev, id }) => {
-  return (
-    <li className="track">
-      <div className="right">
-      <h2>{title}</h2>
-      <h3>{artist}</h3>
-      <h4>{album}</h4>
 
-      <audio controls>
-        <source src={audioPrev} type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
-      </div>
-      <img src={`${img}`} />
-    </li>
+import css from "./track.module.css";
+
+const Track = ({ track, title, artist, img, album, setCurrentSong }) => {
+
+  function handleClick() {
+    setCurrentSong(track)
+  }
+
+  return (
+    <div className={css.track} onClick={handleClick}>
+      <img src={`${img}`} alt={album} />
+
+      <p>{title}</p>
+      <p>{artist}</p>
+      <p>{album}</p>
+    </div>
   );
 };
+
 export default Track;

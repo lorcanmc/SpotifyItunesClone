@@ -1,0 +1,14 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+}
+
+.wrapper {
+  width: auto;
+  height: 100vh;                      /* height of everything is 100% the height the user's screen */
+  display: grid;
+  grid-template-columns: minmax(180px, 20%) 80%;
+  grid-template-rows: 88% 12%;
+}

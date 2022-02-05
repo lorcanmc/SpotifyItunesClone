@@ -1,25 +1,25 @@
-import react from "react";
+
 import Track from "../Track";
-import "./index.css"
-const TrackList = ({ results }) => {
-  console.log();
-  const tracks = results.map((e, index) => {
-    if (e.wrapperType == "track") {
-      return (
-        <Track
-          title={e.trackName}
-          artist={e.artistName}
-          img={e.artworkUrl100}
-          album={e.collectionName}
-          audioPrev={e.previewUrl}
-          key={index}
-        />
-      );
-    }
-  });
+import css from "./tracklist.module.css";
+
+console.log("we")
+const TrackList = ({ tracks, setCurrentSong }) => {
   return (
-    <div>
-      <ul>{tracks}</ul>
+    <div className={css.tracklist}>
+      {tracks.map((e, index) => {
+        return (
+          <Track
+            track={e}
+            title={e.trackName}
+            artist={e.artistName}
+            img={e.artworkUrl100}
+            album={e.collectionName}
+            audioPrev={e.previewUrl}
+            setCurrentSong={setCurrentSong}
+            key={index}
+          />
+        );
+      })}
     </div>
   );
 };
