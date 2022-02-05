@@ -1,4 +1,4 @@
-import react from "react";
+
 import { useState } from "react/cjs/react.development";
 import css from "./input.module.css";
 

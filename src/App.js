@@ -1,6 +1,5 @@
 import css from "./App.module.css";
-import Input from "./Comp/Input/index";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import useFetch from "./Hooks/useFetch.js";
 import SideBar from "./Comp/SideBar";
 import Main from "./Comp/Main";
