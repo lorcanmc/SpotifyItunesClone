@@ -1,5 +1,5 @@
 
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import css from "./input.module.css";
 
 const Input = ({ query, setQuery }) => {
