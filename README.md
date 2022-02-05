@@ -1,45 +1,23 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-f059dc9a6f8d3a56e377f745f24479a46679e63a5d9fe6f495e02850cd0d8118.svg)](https://classroom.github.com/online_ide?assignment_repo_id=6910722&assignment_repo_type=AssignmentRepo)
-![](src/soc-logo.svg)
-# Hackathon Web App, CodeWars or Learning Resource
+# Alotify
 
-Welcome to your penultimate hackathon!
+Front end Spotify clone using the iTunes API
+This is a react App with search and music player functionality, only 29 second song previews are available to play throught the API
 
-For this hackathon you can pick one of the following:
+## structure:
 
-- Build a web app with React
-- Make your own CodeWars
-- Make a learning resource for a particular topic, in the form of a blog post, video explainer or tutorial
+src
+    Comp
+        {Component name}
+            index.js
+            {Component name}.module.css
 
-This repo has already been scaffolded with a React app using `create-react-app`. If you're going with one of the other options, feel free to delete all of the React code and complete the CodeWars/learning resource in this repo instead.
 
-## Web App
 
-In your teams, build any React app. We encourage you to explore and experiment with all the things you've been introduced to over the last two weeks, some of which are:
+Future plans:
 
-- Deployments
-- Authentication
-- Authorisation
-- UI Libraries
-- Storybook
-- NextJS
-- Gatsby
-- Custom Hooks
-
-The main aim is to engineer a React app, so only bring any of the above things in with a light touch; you have less than a day so scale your plan accordingly!
-
-As always, spend a bit of time ideating and planning, and then build your React app.
-
-## CodeWars
-
-1. Write your kata
-2. Write your tests
-
-Refer back to the make-your-own-codewars workshop done before the Christmas break for more detailed instructions.
-
-## Learning Resource
-
-Create a learning resource to be shared with everyone for any of the topics we've covered. It can be in the form of a video explainer, blog post or some other type of tutorial.
-
-## Presentations
-
-Close to the end of the day you'll present to each other in small groups, sharing what you've learnt and achieved during the day.
+- fix card css
+- create custom music player (might use react-player npm package)
+- create multiple pages using react router
+    - add buttons to each card to allow user to save favourite songs temporarily (or using local storage)
+    - create your music main page
+- make sizing and layout interactive for the user

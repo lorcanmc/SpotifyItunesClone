@@ -1,6 +1,11 @@
+.musicPlayer {
+    display: flex;
+    flex-direction: row;
+}
+
 .audio {
     margin: 0 auto;
-    /* filter: sepia(80%) saturate(70%) grayscale(1) contrast(99%) invert(12%); */
-    width: 800px;
+    min-width: 500px;
+    width: 50%;
     height: 100px;
 }

@@ -8,10 +8,8 @@ import MusicPlayer from "./Comp/MusicPlayer";
 
 function App() {
   const [query, setQuery] = useState("");
-  const tracks = useFetch(query);
+  const tracks = useFetch(query, 18);
   const [currentSong, setCurrentSong] = useState({});
-  console.log(currentSong)
-
 
   return (
     <div className={css.wrapper}>
