@@ -7,7 +7,7 @@ export default function MusicPlayer({ currentSong }) {
 
   useEffect(() => {
     async function updateSong() {
-      if (audioRef.current) {
+      if (audioRef.current && currentSong.previewUrl) {
         audioRef.current.pause();
         audioRef.current.load();
         audioRef.current.play();
