@@ -1,15 +1,21 @@
 import React from "react";
+import css from "./currentSongCard.module.css";
 
-export default function CurrentSongCard({ currentSong }) {
+export default function CurrentSongCard({ currentSong, saveFavorite }) {
+
   return (
-    <div style={{ width: "20%", color: "white" }}>
+    <div className={css.card}>
       <img
-        style={{ margin: "10px", height: "80%" }}
+        className={css.image}
         src={currentSong.artworkUrl100}
         alt={currentSong.collectionName}
       />
-      <p>songName</p>
-      <p>Artistname</p>
+      <div className={css.description}>
+        <p>{currentSong.trackName}</p>
+        <p>{currentSong.artistName}</p>
+      </div>
+
+      <button onClick={() => saveFavorite(currentSong)}>+</button>
     </div>
   );
 }

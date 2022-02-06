@@ -21,3 +21,6 @@ Future plans:
     - add buttons to each card to allow user to save favourite songs temporarily (or using local storage)
     - create your music main page
 - make sizing and layout interactive for the user
+
+- uniform card size
+- current song card css

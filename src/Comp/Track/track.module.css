@@ -1,9 +1,8 @@
-
-
 .track {
     background: rgb(35, 35, 35);
     padding: 15px;
-    min-width: 120px;
+    width: 120px;
+    height: 210px;
     border-radius: 4px;
     color: white;
     cursor: pointer;
@@ -20,8 +19,18 @@
 }
 
 .track p {
-    color: var(--main-text-color);
+    /* color: var(---main-text-color); */
     text-align: left;
-    font-size: 15px;
+    font-size: 12px;
     margin: 10px 0;
+    display: block;
+  text-overflow: ellipsis;
+  /* word-wrap: break-word; */
+  overflow: hidden;
+  max-height: 2em;
+  line-height: 1em;
+}
+
+.artist {
+    font-size: 15px;
 }
