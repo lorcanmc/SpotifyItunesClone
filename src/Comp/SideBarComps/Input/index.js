@@ -6,7 +6,6 @@ const Input = ({ query, setQuery }) => {
   const [text, setText] = useState("");
   function handleChange(e) {
     setText(e.target.value);
-    console.log(text);
   }
   function handleClick(e) {
     e.preventDefault();

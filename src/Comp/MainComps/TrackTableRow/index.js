@@ -7,7 +7,7 @@ export default function TrackTableRow({ track, setCurrentSong }) {
       }
 
     return (
-        <div className={css.Row} onDoubleClick={handleClick}>
+        <div className={css.Row} onClick={handleClick}>
             
               <div className={css.song}>{track.trackName}</div>
               <div className={css.artist}>{track.artistName}</div>
