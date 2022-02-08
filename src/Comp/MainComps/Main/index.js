@@ -3,6 +3,7 @@ import MainWindowLinks from "../MainWindowLinks";
 import TrackList from "../TrackList";
 import css from "./main.module.css";
 import { Routes, Route } from "react-router-dom";
+import Favorites from "../Favorites";
 
 export default function Main({ tracks, setCurrentSong, favorites }) {
   return (
@@ -13,12 +14,12 @@ export default function Main({ tracks, setCurrentSong, favorites }) {
           path="/"
           element={
             <TrackList tracks={tracks} setCurrentSong={setCurrentSong} />
-          } />
+          }
+        />
         <Route
           path="/favorites"
-          element={
-            <p>{JSON.stringify(favorites)}</p>
-          } />
+          element={<Favorites favorites={favorites} />}
+        />
       </Routes>
     </div>
   );
