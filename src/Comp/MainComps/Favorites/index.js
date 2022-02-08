@@ -3,7 +3,7 @@ import css from "./favorites.module.css";
 export default function Favorites({ favorites }) {
   return (
     <div>
-      <h1>Favorites</h1>
+      <h1 className={css.header}>Favorites</h1>
       <hr></hr>
       <br></br>
       <table>
