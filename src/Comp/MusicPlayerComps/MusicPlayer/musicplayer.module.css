@@ -1,4 +1,6 @@
 .musicPlayer {
+    background-color: #282828;
+     width: 100vw;
     display: flex;
     flex-direction: row;
 }

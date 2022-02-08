@@ -3,6 +3,15 @@ import css from "./currentSongCard.module.css";
 
 export default function CurrentSongCard({ currentSong, saveFavorite }) {
 
+
+  const button = () => {
+    if(currentSong.artistName) {
+      return <button className={css.favoriteButton} onClick={() => saveFavorite(currentSong)}>+</button>
+    } else {
+      return <></>
+    }
+  }
+
   return (
     <div className={css.card}>
       <img
@@ -15,7 +24,7 @@ export default function CurrentSongCard({ currentSong, saveFavorite }) {
         <p>{currentSong.artistName}</p>
       </div>
 
-      <button onClick={() => saveFavorite(currentSong)}>+</button>
+      {button()}
     </div>
   );
 }

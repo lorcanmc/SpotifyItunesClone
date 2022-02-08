@@ -1,16 +1,16 @@
 import css from "./App.module.css";
 import { useState } from "react";
 import useFetch from "./Hooks/useFetch.js";
-import SideBar from "./Comp/SideBar";
-import Main from "./Comp/Main";
-import MusicPlayer from "./Comp/MusicPlayer";
+import SideBar from "./Comp/SideBarComps/SideBar";
+import Main from "./Comp/MainComps/Main";
+import MusicPlayer from "./Comp/MusicPlayerComps/MusicPlayer";
 
 function App() {
   const [query, setQuery] = useState("");
-  const tracks = useFetch(query, 18);
   const [currentSong, setCurrentSong] = useState({});
   const [favorites, setFavorites] = useState([]);
-  console.log(favorites)
+
+  const tracks = useFetch(query, 18);
 
   function saveFavorite(song) {
     setFavorites([...favorites, song])

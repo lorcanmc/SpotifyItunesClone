@@ -1,0 +1,36 @@
+.card {
+  width: 20%;
+  color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  margin: 10px;
+  height: 80%;
+}
+
+.description {
+  /* margin: 40px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.favoriteButton {
+    color: white;
+    font-size: 40px;
+    margin: 0 20px;
+    background: none;
+    background-color: black;
+	color: inherit;
+	border: none;
+	padding: 0;
+	/* font: inherit; */
+	cursor: pointer;
+	outline: inherit;
+}
+
+.favoriteButton:hover {
+    background-color: rgb(110, 110, 110);
+}

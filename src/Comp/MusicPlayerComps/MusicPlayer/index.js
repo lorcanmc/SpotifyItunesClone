@@ -17,12 +17,8 @@ export default function MusicPlayer({ currentSong, saveFavorite }) {
   }, [currentSong]);
 
   return (
-    <div
-      className={css.musicPlayer}
-      style={{ backgroundColor: "#282828", width: "100vw" }}
-    >
+    <div className={css.musicPlayer}>
       <CurrentSongCard currentSong={currentSong} saveFavorite={saveFavorite} />
-
       <audio className={css.audio} controls ref={audioRef}>
         <source src={currentSong.previewUrl} type="audio/mpeg" />
         Your browser does not support the audio element.
