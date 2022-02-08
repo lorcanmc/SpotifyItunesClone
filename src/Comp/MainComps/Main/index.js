@@ -1,9 +1,9 @@
 import React from "react";
 import MainWindowLinks from "../MainWindowLinks";
-import TrackList from "../TrackList";
+import TrackCardList from "../TrackCardList";
 import css from "./main.module.css";
 import { Routes, Route } from "react-router-dom";
-import Favorites from "../Favorites";
+import TrackTableList from "../TrackTableList";
 
 export default function Main({ tracks, setCurrentSong, favorites }) {
   return (
@@ -13,12 +13,12 @@ export default function Main({ tracks, setCurrentSong, favorites }) {
         <Route
           path="/"
           element={
-            <TrackList tracks={tracks} setCurrentSong={setCurrentSong} />
+            <TrackCardList tracks={tracks} setCurrentSong={setCurrentSong} />
           }
         />
         <Route
           path="/favorites"
-          element={<Favorites favorites={favorites} />}
+          element={<TrackTableList tracks={favorites} />}
         />
       </Routes>
     </div>

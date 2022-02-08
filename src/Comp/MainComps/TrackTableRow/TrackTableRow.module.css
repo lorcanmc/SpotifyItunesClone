@@ -1,0 +1,14 @@
+.Row {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    /* height: 20px; */
+}
+
+.song {
+    width: 30%;
+}
+
+.artist {
+    width: 30%
+}

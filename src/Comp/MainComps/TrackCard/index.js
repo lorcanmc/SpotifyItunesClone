@@ -2,7 +2,7 @@
 
 import css from "./track.module.css";
 
-const Track = ({ track, title, artist, img, album, setCurrentSong }) => {
+const TrackCard = ({ track, title, artist, img, album, setCurrentSong }) => {
 
   function handleClick() {
     setCurrentSong(track)
@@ -18,4 +18,4 @@ const Track = ({ track, title, artist, img, album, setCurrentSong }) => {
   );
 };
 
-export default Track;
+export default TrackCard;
