@@ -1,8 +1,13 @@
 import css from "./TrackTableRow.module.css"
 
-export default function TrackTableRow({ track }) {
+export default function TrackTableRow({ track, setCurrentSong }) {
+
+    function handleClick() {
+        setCurrentSong(track)
+      }
+
     return (
-        <div className={css.Row}>
+        <div className={css.Row} onDoubleClick={handleClick}>
             
               <div className={css.song}>{track.trackName}</div>
               <div className={css.artist}>{track.artistName}</div>
