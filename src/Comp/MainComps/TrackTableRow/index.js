@@ -3,6 +3,7 @@ import css from "./TrackTableRow.module.css"
 export default function TrackTableRow({ track, setCurrentSong }) {
 
     function handleClick() {
+        console.log("handleclick called")
         setCurrentSong(track)
       }
 
