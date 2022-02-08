@@ -18,7 +18,7 @@ export default function Main({ tracks, setCurrentSong, favorites }) {
         />
         <Route
           path="/favorites"
-          element={<TrackTableList tracks={favorites} />}
+          element={<TrackTableList tracks={favorites} setCurrentSong={setCurrentSong} />}
         />
       </Routes>
     </div>
