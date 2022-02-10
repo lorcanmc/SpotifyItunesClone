@@ -19,9 +19,11 @@ export default function SideBar({ query, setQuery }) {
       <Input query={query} setQuery={setQuery} />
       <hr />
       <Link to="/">
-        <p>Home</p>
+        <p className={css.link}>Home</p>
       </Link>
-      <Link to="/favorites"><p>Your Favorites</p></Link>
+      <Link to="/favorites">
+        <p className={css.link}>Your Favorites</p>
+      </Link>
       <hr />
       <p>
         <small className={css.sidebarSmall}>RECENTLY PLAYED</small>

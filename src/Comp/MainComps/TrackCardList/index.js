@@ -2,20 +2,17 @@
 import TrackCard from "../TrackCard";
 import css from "./tracklist.module.css";
 
-console.log("we")
-const TrackCardList = ({ tracks, setCurrentSong }) => {
+function TrackCardList({ tracks, setCurrentSong }) {
+
   return (
     <div className={css.tracklist}>
-      {tracks.map((e, index) => {
+      {tracks.map((track, index) => {
         return (
           <TrackCard
-            track={e}
-            title={e.trackName}
-            artist={e.artistName}
-            img={e.artworkUrl100}
-            album={e.collectionName}
-            audioPrev={e.previewUrl}
+            track={track}
             setCurrentSong={setCurrentSong}
+            width={140}
+            height={220}
             key={index}
           />
         );

@@ -4,6 +4,7 @@ import TrackCardList from "../TrackCardList";
 import css from "./main.module.css";
 import { Routes, Route } from "react-router-dom";
 import TrackTableList from "../TrackTableList";
+import HomeScreen from "../HomeScreen";
 
 export default function Main({ tracks, setCurrentSong, favorites }) {
   return (
@@ -13,8 +14,12 @@ export default function Main({ tracks, setCurrentSong, favorites }) {
         <Route
           path="/"
           element={
-            <TrackCardList tracks={tracks} setCurrentSong={setCurrentSong} />
+            <HomeScreen setCurrentSong={setCurrentSong} />
           }
+        />
+        <Route
+          path="/search"
+          element={<TrackCardList tracks={tracks} setCurrentSong={setCurrentSong} />}
         />
         <Route
           path="/favorites"
