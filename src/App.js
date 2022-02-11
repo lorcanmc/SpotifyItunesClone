@@ -10,7 +10,6 @@ function App() {
   const [query, setQuery] = useState("");
   const [currentSong, setCurrentSong] = useState({});
   const [favorites, setFavorites] = useState(dummyFavorites);
-  console.log(favorites)
   const tracks = useFetch(query, 18);
 
   function saveFavorite(song) {

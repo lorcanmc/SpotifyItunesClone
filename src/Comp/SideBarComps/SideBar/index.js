@@ -22,7 +22,7 @@ export default function SideBar({ query, setQuery }) {
         <p className={css.link}>Home</p>
       </Link>
       <Link to="/favorites">
-        <p className={css.link}>Your Favorites</p>
+        <p className={css.link}>Your Favourites</p>
       </Link>
       <hr />
       <p>

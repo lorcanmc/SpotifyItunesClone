@@ -1,13 +1,15 @@
 .card {
-  width: 20%;
+  min-width: 250px;
+  width: 20vw;
   color: white;
   display: flex;
   flex-direction: row;
 }
 
 .image {
-  margin: 10px;
+  margin: 0 15px;
   height: 80%;
+  align-self: center;
 }
 
 .description {
@@ -20,7 +22,7 @@
 .favoriteButton {
   color: white;
   font-size: 40px;
-  margin: 0 20px;
+  margin: 0 15px;
   background: none;
   background-color: black;
   color: inherit;

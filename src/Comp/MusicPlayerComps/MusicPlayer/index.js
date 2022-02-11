@@ -23,6 +23,7 @@ export default function MusicPlayer({ currentSong, saveFavorite }) {
         <source src={currentSong.previewUrl} type="audio/mpeg" />
         Your browser does not support the audio element.
       </audio>
+      <div style={{width: "20vw"}}></div>
     </div>
   );
 }
