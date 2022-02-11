@@ -4,7 +4,8 @@ import TrackCardList from "../TrackCardList";
 import css from "./main.module.css";
 import { Routes, Route } from "react-router-dom";
 import TrackTableList from "../TrackTableList";
-import HomeScreen from "../HomeScreen";
+import TitleAndTrackCards from "../TitleAndTrackCards";
+import { featured } from "../../../lib/home";
 
 export default function Main({ tracks, setCurrentSong, favorites }) {
   return (
@@ -14,7 +15,25 @@ export default function Main({ tracks, setCurrentSong, favorites }) {
         <Route
           path="/"
           element={
-            <HomeScreen setCurrentSong={setCurrentSong} />
+            <TitleAndTrackCards title="FEATURED" tracks={featured} setCurrentSong={setCurrentSong} />
+          }
+        />
+        <Route
+          path="/genres"
+          element={
+            <TitleAndTrackCards title="GENRES" tracks={featured} setCurrentSong={setCurrentSong} />
+          }
+        />
+        <Route
+          path="/newreleases"
+          element={
+            <TitleAndTrackCards title="NEW RELEASES" tracks={featured} setCurrentSong={setCurrentSong} />
+          }
+        />
+        <Route
+          path="/discovery"
+          element={
+            <TitleAndTrackCards title="DISCOVERY" tracks={featured} setCurrentSong={setCurrentSong} />
           }
         />
         <Route

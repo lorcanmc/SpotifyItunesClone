@@ -7,16 +7,16 @@ export default function MainWindowLinks() {
     <div className={css.mainWindowLinks}>
       <ul>
         <li>
-          <a href="http://example.com">FEATURED</a>
+          <a href="./">FEATURED</a>
         </li>
         <li>
-          <a href="http://example.com">GENRES & MOODS</a>
+          <a href="./genres">GENRES & MOODS</a>
         </li>
         <li>
-          <a href="http://example.com">NEW RELEASES</a>
+          <a href="./newreleases">NEW RELEASES</a>
         </li>
         <li>
-          <a href="http://example.com">DISCOVERY</a>
+          <a href="./discovery">DISCOVERY</a>
         </li>
       </ul>
     </div>
