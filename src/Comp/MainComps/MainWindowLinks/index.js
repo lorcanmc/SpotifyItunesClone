@@ -1,22 +1,31 @@
 import React from "react";
-import css from "./mainwindowlinks.module.css"
+import { Link } from "react-router-dom";
+
+import css from "./mainwindowlinks.module.css";
 
 export default function MainWindowLinks() {
-    
   return (
     <div className={css.mainWindowLinks}>
       <ul>
         <li>
-          <a href="./">FEATURED</a>
+          <Link to="/">
+            <p>FEATURED</p>
+          </Link>
         </li>
         <li>
-          <a href="./genres">GENRES & MOODS</a>
+          <Link to="/genres">
+            <p>GENRES & MOODS</p>
+          </Link>
         </li>
         <li>
-          <a href="./newreleases">NEW RELEASES</a>
+          <Link to="/newreleases">
+            <p>NEW RELEASES</p>
+          </Link>
         </li>
         <li>
-          <a href="./discovery">DISCOVERY</a>
+          <Link to="/discovery">
+            <p>DISCOVERY</p>
+          </Link>
         </li>
       </ul>
     </div>
