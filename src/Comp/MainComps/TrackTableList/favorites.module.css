@@ -1,11 +1,45 @@
-.header {
+.heading {
     text-align: center;
+}
+
+.rowHeaders {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
 }
 
 .table {
   width: 90%;
   margin: 0 auto;
 }
+
+.num {
+  width: 10%;
+}
+
+.rowHeader {
+  padding: 10px;
+}
+
+.rowHeader:hover {
+  background-color: #111;
+}
+
+.song {
+  width: 30%;
+}
+
+.artist {
+  width: 30%
+}
+
+.album {
+  width: 30%;
+}
+
+
 
 
 

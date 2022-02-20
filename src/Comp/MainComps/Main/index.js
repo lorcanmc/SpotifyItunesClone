@@ -7,7 +7,7 @@ import TrackTableList from "../TrackTableList";
 import TitleAndTrackCards from "../TitleAndTrackCards";
 import { featured } from "../../../lib/home";
 
-export default function Main({ tracks, setCurrentSong, favorites }) {
+export default function Main({ tracks, setCurrentSong, favorites, setFavorites }) {
   return (
     <div className={css.main}>
       <MainWindowLinks />
@@ -42,7 +42,7 @@ export default function Main({ tracks, setCurrentSong, favorites }) {
         />
         <Route
           path="/favorites"
-          element={<TrackTableList tracks={favorites} setCurrentSong={setCurrentSong} />}
+          element={<TrackTableList tracks={favorites} setTracks={setFavorites} setCurrentSong={setCurrentSong} />}
         />
       </Routes>
     </div>

@@ -19,7 +19,7 @@ function App() {
   return (
     <div className={css.wrapper}>
       <SideBar query={query} setQuery={setQuery} />
-      <Main tracks={tracks} setCurrentSong={setCurrentSong} favorites={favorites} />
+      <Main tracks={tracks} setCurrentSong={setCurrentSong} favorites={favorites} setFavorites={setFavorites} />
       <MusicPlayer currentSong={currentSong} saveFavorite={saveFavorite} />
     </div>
   );
