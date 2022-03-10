@@ -1,7 +1,7 @@
 # Alotify
 
 Front end Spotify clone using the iTunes API
-This is a react App with search and music player functionality and a smooth user interface
+This is a react App with search and music player functionality and a smooth user interface.
 
 ## Current Features
 
