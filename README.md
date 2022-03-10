@@ -13,10 +13,10 @@ This is a react App with search and music player functionality, only 29 second s
 ## Structure:
 
 src
-    Comp
-        {Component name}
-            index.js
-            {Component name}.module.css
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    Comp
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        {Component name}
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            index.js
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            {Component name}.module.css
 
 
 
