@@ -1,12 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import css from "./mainwindowlinks.module.css";
 
 export default function MainWindowLinks() {
   return (
     <div className={css.mainWindowLinks}>
-      <ul>
+      {/* presentable */}
+
+      <p>Search for your favourite artists in the side bar! </p>
+      {/* <ul>
         <li>
           <Link to="/">
             <p>FEATURED</p>
@@ -27,7 +30,7 @@ export default function MainWindowLinks() {
             <p>DISCOVERY</p>
           </Link>
         </li>
-      </ul>
+      </ul> */}
     </div>
   );
 }

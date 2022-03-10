@@ -27,8 +27,8 @@ export default function CurrentSongCard({ currentSong, saveFavorite }) {
           alt={currentSong.collectionName}
         />
         <div className={css.description}>
-          <p>{currentSong.trackName}</p>
-          <p>{currentSong.artistName}</p>
+          <p className={css.desctext}>{currentSong.trackName}</p>
+          <p className={css.desctext}>{currentSong.artistName}</p>
         </div>
         {button()}
       </div>

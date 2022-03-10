@@ -11,7 +11,7 @@
 
 .heading {
     display: flex;
-    align-items: center;;
+    align-items: center;
 }
 
 .spotifyLogo {
@@ -25,7 +25,7 @@
 }
 
 .sidebar p {
-    color: white;
+    
     font-weight: bold;
     font-size: 16px;
 }
@@ -41,6 +41,11 @@ hr {
 }
 
 .link {
+    color: white;
     margin: 10px 0;
+    text-decoration: none;
 }
 
+.grey {
+    color: grey
+}

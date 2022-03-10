@@ -18,6 +18,10 @@ input[type=text] {
     width: 100%;
 }
 
+input::placeholder {
+    color: darkgrey;
+}
+
 button[type=submit] {
     background: none;
 	color: inherit;

@@ -25,10 +25,10 @@ export default function SideBar({ query, setQuery }) {
         <p className={css.link}>Your Favourites</p>
       </Link>
       <hr />
-      <p>
+      <p className={css.grey}>
         <small className={css.sidebarSmall}>RECENTLY PLAYED</small>
       </p>
-      <p>
+      <p className={css.grey}>
         New Traditions
         <br />
         <small className={css.sidebarSmall}>PLAYLIST</small>
