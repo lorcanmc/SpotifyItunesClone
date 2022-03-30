@@ -1,8 +1,10 @@
-
+import { useNavigate } from "react-router-dom";
 import { useState } from "react";
+
 import css from "./input.module.css";
 
 const Input = ({ query, setQuery }) => {
+  let navigate  = useNavigate();
   const [text, setText] = useState("");
   function handleChange(e) {
     setText(e.target.value);
@@ -11,6 +13,8 @@ const Input = ({ query, setQuery }) => {
     e.preventDefault();
     setQuery(text.split(" ").join("+"));
     console.log(text);
+    navigate('./search');
+
   }
   return (
     <form>

@@ -1,13 +1,14 @@
 .musicPlayer {
     background-color: #282828;
-     width: 100vw;
+    width: 100vw;
     display: flex;
     flex-direction: row;
 }
 
 .audio {
-    margin: 15px auto;
-    /* min-width: 500px; */
-    width: 50%;
+    align-self: center;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 50vw;
     height: 40px;
 }

@@ -2,15 +2,29 @@
     display: flex;
     flex-direction: row;
     font-size: 20px;
+    cursor: pointer;
 }
 .Row:hover {
-    background-color: black;
+    background-color: #111;
+}
+
+.num {
+    width: 10%;
+    padding: 10px;
 }
 
 .song {
+    color: white;
     width: 30%;
+    padding: 10px;
 }
 
 .artist {
-    width: 30%
+    width: 30%;
+    padding: 10px;
+}
+
+.album {
+    width: 30%;
+    padding: 10px;
 }

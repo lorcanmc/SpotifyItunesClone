@@ -4,8 +4,10 @@ import TrackCardList from "../TrackCardList";
 import css from "./main.module.css";
 import { Routes, Route } from "react-router-dom";
 import TrackTableList from "../TrackTableList";
+import TitleAndTrackCards from "../TitleAndTrackCards";
+import { featured } from "../../../lib/home";
 
-export default function Main({ tracks, setCurrentSong, favorites }) {
+export default function Main({ tracks, setCurrentSong, favorites, setFavorites }) {
   return (
     <div className={css.main}>
       <MainWindowLinks />
@@ -13,12 +15,34 @@ export default function Main({ tracks, setCurrentSong, favorites }) {
         <Route
           path="/"
           element={
-            <TrackCardList tracks={tracks} setCurrentSong={setCurrentSong} />
+            <TitleAndTrackCards title="FEATURED" tracks={featured} setCurrentSong={setCurrentSong} />
           }
         />
         <Route
+          path="/genres"
+          element={
+            <TitleAndTrackCards title="GENRES" tracks={featured} setCurrentSong={setCurrentSong} />
+          }
+        />
+        <Route
+          path="/newreleases"
+          element={
+            <TitleAndTrackCards title="NEW RELEASES" tracks={featured} setCurrentSong={setCurrentSong} />
+          }
+        />
+        <Route
+          path="/discovery"
+          element={
+            <TitleAndTrackCards title="DISCOVERY" tracks={featured} setCurrentSong={setCurrentSong} />
+          }
+        />
+        <Route
+          path="/search"
+          element={<TrackCardList tracks={tracks} setCurrentSong={setCurrentSong} />}
+        />
+        <Route
           path="/favorites"
-          element={<TrackTableList tracks={favorites} setCurrentSong={setCurrentSong} />}
+          element={<TrackTableList tracks={favorites} setTracks={setFavorites} setCurrentSong={setCurrentSong} />}
         />
       </Routes>
     </div>

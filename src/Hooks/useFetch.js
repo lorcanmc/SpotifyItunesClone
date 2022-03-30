@@ -6,7 +6,7 @@ export default function useFetch(query, limit) {
   useEffect(() => {
     async function loadData() {
       const res = await fetch(
-        `https://itunes.apple.com/search?term=${query}&media=music&limit=${limit}`
+        `https://lorcancorsproxy.herokuapp.com/https://itunes.apple.com/search?term=${query}&media=music&limit=${limit}`
       );
       const json = await res.json();
       setResponse(json.results);

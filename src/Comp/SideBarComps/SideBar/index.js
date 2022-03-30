@@ -19,14 +19,16 @@ export default function SideBar({ query, setQuery }) {
       <Input query={query} setQuery={setQuery} />
       <hr />
       <Link to="/">
-        <p>Home</p>
+        <p className={css.link}>Home</p>
       </Link>
-      <Link to="/favorites"><p>Your Favorites</p></Link>
+      <Link to="/favorites">
+        <p className={css.link}>Your Favourites</p>
+      </Link>
       <hr />
-      <p>
+      <p className={css.grey}>
         <small className={css.sidebarSmall}>RECENTLY PLAYED</small>
       </p>
-      <p>
+      <p className={css.grey}>
         New Traditions
         <br />
         <small className={css.sidebarSmall}>PLAYLIST</small>

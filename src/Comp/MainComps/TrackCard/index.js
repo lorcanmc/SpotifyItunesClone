@@ -1,19 +1,26 @@
-
-
 import css from "./track.module.css";
 
-const TrackCard = ({ track, title, artist, img, album, setCurrentSong }) => {
+const TrackCard = ({ track, setCurrentSong, width, height }) => {
+
+  const {trackName, artistName, artworkUrl100, collectionName} =  track;
 
   function handleClick() {
-    setCurrentSong(track)
+    setCurrentSong(track);
   }
 
   return (
-    <div className={css.track} onClick={handleClick}>
-      <img src={`${img}`} alt={album} />
-      <p>{title}</p>
-      <h6 className={css.artist}>{artist}</h6>
-      <p>{album}</p>
+    <div
+      className={css.track}
+      style={{ width: `80%`, height: `85%`}}
+      onClick={handleClick}
+    >
+    <div className={css.trim} style={{maxHeight: `${height - 65}px`}} >
+      <img className={css.image} src={`${artworkUrl100}`} alt={collectionName} />
+    </div>
+      
+      <p>{trackName}</p>
+      <h6 className={css.artist}>{artistName}</h6>
+      <p>{collectionName}</p>
     </div>
   );
 };

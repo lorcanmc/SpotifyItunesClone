@@ -1,0 +1,517 @@
+export const bannerTrack = {
+  wrapperType: "track",
+  kind: "song",
+  artistId: 952088594,
+  collectionId: 1568796523,
+  trackId: 1568796530,
+  artistName: "Liphe",
+  collectionName: "Beachwalker - Single",
+  trackName: "Beachwalker",
+  collectionCensoredName: "Beachwalker - Single",
+  trackCensoredName: "Beachwalker",
+  artistViewUrl: "https://music.apple.com/us/artist/liphe/952088594?uo=4",
+  collectionViewUrl:
+    "https://music.apple.com/us/album/beachwalker/1568796523?i=1568796530&uo=4",
+  trackViewUrl:
+    "https://music.apple.com/us/album/beachwalker/1568796523?i=1568796530&uo=4",
+  previewUrl:
+    "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cc/44/2f/cc442f74-22e4-5ae8-667f-992b2e3f9d7f/mzaf_14856735046964575797.plus.aac.p.m4a",
+  artworkUrl30:
+    "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/ff/c7/2a/ffc72a44-2bb9-ca39-e2b8-9825476cd889/source/30x30bb.jpg",
+  artworkUrl60:
+    "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/ff/c7/2a/ffc72a44-2bb9-ca39-e2b8-9825476cd889/source/60x60bb.jpg",
+  artworkUrl100:
+    "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/ff/c7/2a/ffc72a44-2bb9-ca39-e2b8-9825476cd889/source/100x100bb.jpg",
+  collectionPrice: 0.99,
+  trackPrice: 0.99,
+  releaseDate: "2021-06-01T12:00:00Z",
+  collectionExplicitness: "notExplicit",
+  trackExplicitness: "notExplicit",
+  discCount: 1,
+  discNumber: 1,
+  trackCount: 1,
+  trackNumber: 1,
+  trackTimeMillis: 178000,
+  country: "USA",
+  currency: "USD",
+  primaryGenreName: "Hip-Hop/Rap",
+  isStreamable: true,
+};
+
+export const featured = [
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 952088594,
+    collectionId: 1568796523,
+    trackId: 1568796530,
+    artistName: "Liphe",
+    collectionName: "Beachwalker - Single",
+    trackName: "Beachwalker",
+    collectionCensoredName: "Beachwalker - Single",
+    trackCensoredName: "Beachwalker",
+    artistViewUrl: "https://music.apple.com/us/artist/liphe/952088594?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/beachwalker/1568796523?i=1568796530&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/beachwalker/1568796523?i=1568796530&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/cc/44/2f/cc442f74-22e4-5ae8-667f-992b2e3f9d7f/mzaf_14856735046964575797.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/ff/c7/2a/ffc72a44-2bb9-ca39-e2b8-9825476cd889/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/ff/c7/2a/ffc72a44-2bb9-ca39-e2b8-9825476cd889/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/ff/c7/2a/ffc72a44-2bb9-ca39-e2b8-9825476cd889/source/100x100bb.jpg",
+    collectionPrice: 0.99,
+    trackPrice: 0.99,
+    releaseDate: "2021-06-01T12:00:00Z",
+    collectionExplicitness: "notExplicit",
+    trackExplicitness: "notExplicit",
+    discCount: 1,
+    discNumber: 1,
+    trackCount: 1,
+    trackNumber: 1,
+    trackTimeMillis: 178000,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "Hip-Hop/Rap",
+    isStreamable: true,
+  },
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 829841579,
+    collectionId: 1512318856,
+    trackId: 1512319132,
+    artistName: "Tessa Violet",
+    collectionName: "Bad Ideas",
+    trackName: "Crush",
+    collectionCensoredName: "Bad Ideas",
+    trackCensoredName: "Crush",
+    artistViewUrl:
+      "https://music.apple.com/us/artist/tessa-violet/829841579?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/crush/1512318856?i=1512319132&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/crush/1512318856?i=1512319132&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/55/bb/25/55bb25fc-6da8-2dee-2520-b251d3472b6d/mzaf_16245118044365594750.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/9f/4f/3b9f4fcd-c123-26d6-7a1c-e3f980d16af4/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/9f/4f/3b9f4fcd-c123-26d6-7a1c-e3f980d16af4/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3b/9f/4f/3b9f4fcd-c123-26d6-7a1c-e3f980d16af4/source/100x100bb.jpg",
+    collectionPrice: 9.99,
+    trackPrice: 0.99,
+    releaseDate: "2018-06-15T12:00:00Z",
+    collectionExplicitness: "explicit",
+    trackExplicitness: "notExplicit",
+    discCount: 1,
+    discNumber: 1,
+    trackCount: 11,
+    trackNumber: 2,
+    trackTimeMillis: 216267,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "Indie Pop",
+    isStreamable: true,
+  },
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 262836961,
+    collectionId: 1544494115,
+    trackId: 1544494392,
+    artistName: "Adele",
+    collectionName: "25",
+    trackName: "Hello",
+    collectionCensoredName: "25",
+    trackCensoredName: "Hello",
+    artistViewUrl: "https://music.apple.com/us/artist/adele/262836961?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/hello/1544494115?i=1544494392&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/hello/1544494115?i=1544494392&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e8/28/29/e828299c-cea7-dd3e-8612-77a632bd60e3/mzaf_7797752939119995161.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/da/e9/e6dae950-3b74-8df4-b40a-dba4161bf067/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/da/e9/e6dae950-3b74-8df4-b40a-dba4161bf067/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/e6/da/e9/e6dae950-3b74-8df4-b40a-dba4161bf067/source/100x100bb.jpg",
+    collectionPrice: 10.99,
+    trackPrice: 1.29,
+    releaseDate: "2015-10-23T07:00:00Z",
+    collectionExplicitness: "notExplicit",
+    trackExplicitness: "notExplicit",
+    discCount: 1,
+    discNumber: 1,
+    trackCount: 11,
+    trackNumber: 1,
+    trackTimeMillis: 295502,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "Pop",
+    isStreamable: true,
+  },
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 2780160,
+    collectionId: 251652523,
+    trackId: 251652727,
+    artistName: "Gary Numan",
+    collectionName: "The Pleasure Principle (Bonus Tracks)",
+    trackName: "Cars",
+    collectionCensoredName: "The Pleasure Principle",
+    trackCensoredName: "Cars",
+    artistViewUrl: "https://music.apple.com/us/artist/gary-numan/2780160?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/cars/251652523?i=251652727&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/cars/251652523?i=251652727&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/5d/fc/fa/5dfcfa0f-6100-50d9-7439-5d881b26d7fd/mzaf_13372794333841493078.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is5-ssl.mzstatic.com/image/thumb/Music126/v4/ca/20/c6/ca20c6f9-ba05-96fb-3920-9756407f8dbc/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is5-ssl.mzstatic.com/image/thumb/Music126/v4/ca/20/c6/ca20c6f9-ba05-96fb-3920-9756407f8dbc/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is5-ssl.mzstatic.com/image/thumb/Music126/v4/ca/20/c6/ca20c6f9-ba05-96fb-3920-9756407f8dbc/source/100x100bb.jpg",
+    collectionPrice: 9.99,
+    trackPrice: 1.29,
+    releaseDate: "1979-08-01T12:00:00Z",
+    collectionExplicitness: "notExplicit",
+    trackExplicitness: "notExplicit",
+    discCount: 1,
+    discNumber: 1,
+    trackCount: 17,
+    trackNumber: 9,
+    trackTimeMillis: 238907,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "New Wave",
+    isStreamable: true,
+  },
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 3296287,
+    collectionId: 1440650428,
+    trackId: 1440650711,
+    artistName: "Queen",
+    collectionName: "The Platinum Collection (Greatest Hits I, II & III)",
+    trackName: "Bohemian Rhapsody",
+    collectionCensoredName:
+      "The Platinum Collection (Greatest Hits I, II & III)",
+    trackCensoredName: "Bohemian Rhapsody",
+    artistViewUrl: "https://music.apple.com/us/artist/queen/3296287?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/bohemian-rhapsody/1440650428?i=1440650711&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/bohemian-rhapsody/1440650428?i=1440650711&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/d8/ec/0b/d8ec0b36-8dc3-0c7f-b78e-7372b4af433f/mzaf_7726367658824853942.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/83/23/e4/8323e48b-3467-448b-1ce0-8981d8a97437/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/83/23/e4/8323e48b-3467-448b-1ce0-8981d8a97437/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music115/v4/83/23/e4/8323e48b-3467-448b-1ce0-8981d8a97437/source/100x100bb.jpg",
+    collectionPrice: 24.99,
+    trackPrice: 1.29,
+    releaseDate: "1975-10-31T12:00:00Z",
+    collectionExplicitness: "notExplicit",
+    trackExplicitness: "notExplicit",
+    discCount: 3,
+    discNumber: 1,
+    trackCount: 17,
+    trackNumber: 1,
+    trackTimeMillis: 355145,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "Rock",
+    isStreamable: true,
+  },
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 510215827,
+    collectionId: 1444317172,
+    trackId: 1444317456,
+    artistName: "Arthur Beatrice",
+    collectionName: "Carter - EP",
+    trackName: "Carter",
+    collectionCensoredName: "Carter - EP",
+    trackCensoredName: "Carter (Cut)",
+    artistViewUrl:
+      "https://music.apple.com/us/artist/arthur-beatrice/510215827?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/carter-cut/1444317172?i=1444317456&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/carter-cut/1444317172?i=1444317456&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/e4/c5/64/e4c564f8-6291-42aa-7046-54d355228b92/mzaf_9157766373815148309.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/c3/e8/ef/c3e8ef29-1fe5-56c0-6d5a-10ebed6c4ddd/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/c3/e8/ef/c3e8ef29-1fe5-56c0-6d5a-10ebed6c4ddd/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is4-ssl.mzstatic.com/image/thumb/Music128/v4/c3/e8/ef/c3e8ef29-1fe5-56c0-6d5a-10ebed6c4ddd/source/100x100bb.jpg",
+    collectionPrice: 3.99,
+    trackPrice: 1.29,
+    releaseDate: "2013-01-01T12:00:00Z",
+    collectionExplicitness: "notExplicit",
+    trackExplicitness: "notExplicit",
+    discCount: 1,
+    discNumber: 1,
+    trackCount: 4,
+    trackNumber: 2,
+    trackTimeMillis: 216404,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "Alternative",
+    isStreamable: true,
+  },
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 129039724,
+    collectionId: 152471339,
+    trackId: 152471393,
+    artistName: "Gnarls Barkley",
+    collectionName: "St. Elsewhere",
+    trackName: "Crazy",
+    collectionCensoredName: "St. Elsewhere",
+    trackCensoredName: "Crazy",
+    artistViewUrl:
+      "https://music.apple.com/us/artist/gnarls-barkley/129039724?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/crazy/152471339?i=152471393&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/crazy/152471339?i=152471393&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1e/50/d5/1e50d570-1d96-960b-10c1-c7828b2b686e/mzaf_1298662228454882694.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/7d/01/56/7d0156be-12cd-8724-a0ca-727b1013a81d/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/7d/01/56/7d0156be-12cd-8724-a0ca-727b1013a81d/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is4-ssl.mzstatic.com/image/thumb/Music/v4/7d/01/56/7d0156be-12cd-8724-a0ca-727b1013a81d/source/100x100bb.jpg",
+    collectionPrice: 9.99,
+    trackPrice: 1.29,
+    releaseDate: "2006-03-13T08:00:00Z",
+    collectionExplicitness: "notExplicit",
+    trackExplicitness: "notExplicit",
+    discCount: 1,
+    discNumber: 1,
+    trackCount: 16,
+    trackNumber: 2,
+    trackTimeMillis: 178387,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "Alternative",
+    isStreamable: true,
+  },
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 158384403,
+    collectionId: 322969529,
+    trackId: 322969547,
+    artistName: "The Stone Roses",
+    collectionName: "The Stone Roses (Remastered)",
+    trackName: "Fools Gold",
+    collectionCensoredName: "The Stone Roses (Remastered)",
+    trackCensoredName: "Fools Gold (Remastered)",
+    artistViewUrl:
+      "https://music.apple.com/us/artist/the-stone-roses/158384403?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/fools-gold-remastered/322969529?i=322969547&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/fools-gold-remastered/322969529?i=322969547&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/26/69/e0/2669e0c4-6b7b-46e1-6b06-7daa79304e6f/mzaf_7751163542171466856.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music125/v4/88/e5/13/88e51342-d69e-732a-238f-6dcca170bcb8/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music125/v4/88/e5/13/88e51342-d69e-732a-238f-6dcca170bcb8/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music125/v4/88/e5/13/88e51342-d69e-732a-238f-6dcca170bcb8/source/100x100bb.jpg",
+    collectionPrice: 9.99,
+    trackPrice: 1.29,
+    releaseDate: "1989-11-06T08:00:00Z",
+    collectionExplicitness: "notExplicit",
+    trackExplicitness: "notExplicit",
+    discCount: 1,
+    discNumber: 1,
+    trackCount: 12,
+    trackNumber: 12,
+    trackTimeMillis: 594453,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "Alternative",
+    isStreamable: true,
+  },
+
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 184932871,
+    collectionId: 1440763481,
+    trackId: 1440763926,
+    artistName: "MIKA",
+    collectionName: "Life In Cartoon Motion",
+    trackName: "Relax, Take It Easy",
+    collectionCensoredName: "Life In Cartoon Motion",
+    trackCensoredName: "Relax, Take It Easy",
+    artistViewUrl: "https://music.apple.com/us/artist/mika/184932871?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/relax-take-it-easy/1440763481?i=1440763926&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/relax-take-it-easy/1440763481?i=1440763926&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/1b/cf/9f/1bcf9f70-edb1-48a1-cc6f-6915f919d21b/mzaf_9510682005273161020.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/02/aa/ec/02aaece2-669f-3ea8-ffdb-cbe845381fe4/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/02/aa/ec/02aaece2-669f-3ea8-ffdb-cbe845381fe4/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is2-ssl.mzstatic.com/image/thumb/Music124/v4/02/aa/ec/02aaece2-669f-3ea8-ffdb-cbe845381fe4/source/100x100bb.jpg",
+    collectionPrice: 7.99,
+    trackPrice: 1.29,
+    releaseDate: "2006-06-01T12:00:00Z",
+    collectionExplicitness: "notExplicit",
+    trackExplicitness: "notExplicit",
+    discCount: 1,
+    discNumber: 1,
+    trackCount: 14,
+    trackNumber: 5,
+    trackTimeMillis: 224800,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "Pop",
+    isStreamable: true,
+  },
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 42032512,
+    collectionId: 785837469,
+    trackId: 785837479,
+    artistName: "Hard-FI",
+    collectionName: "Best of 2004 - 2014",
+    trackName: "Suburban Knights",
+    collectionCensoredName: "Best of 2004 - 2014",
+    trackCensoredName: "Suburban Knights",
+    artistViewUrl: "https://music.apple.com/us/artist/hard-fi/42032512?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/suburban-knights/785837469?i=785837479&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/suburban-knights/785837469?i=785837479&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b5/ef/1d/b5ef1dc1-cee0-7c3a-8446-35b9ee6b9439/mzaf_17860707579784549117.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music6/v4/dd/e8/10/dde8102c-56aa-60ed-2b27-9d3d6e459d32/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music6/v4/dd/e8/10/dde8102c-56aa-60ed-2b27-9d3d6e459d32/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is3-ssl.mzstatic.com/image/thumb/Music6/v4/dd/e8/10/dde8102c-56aa-60ed-2b27-9d3d6e459d32/source/100x100bb.jpg",
+    collectionPrice: 11.99,
+    trackPrice: 1.29,
+    releaseDate: "2007-08-06T12:00:00Z",
+    collectionExplicitness: "cleaned",
+    trackExplicitness: "notExplicit",
+    discCount: 1,
+    discNumber: 1,
+    trackCount: 19,
+    trackNumber: 9,
+    trackTimeMillis: 269600,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "Alternative",
+    isStreamable: true,
+  },
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 1160482144,
+    collectionId: 1436555269,
+    trackId: 1436555518,
+    artistName: "Ella Mai",
+    collectionName: "Ella Mai",
+    trackName: "Trip",
+    collectionCensoredName: "Ella Mai",
+    trackCensoredName: "Trip",
+    artistViewUrl: "https://music.apple.com/us/artist/ella-mai/1160482144?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/trip/1436555269?i=1436555518&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/trip/1436555269?i=1436555518&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b5/09/35/b50935e2-a5a2-c6af-f36a-18a2cc51787d/mzaf_2139045255522001239.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/be/4d/6e/be4d6ec3-2f5b-be2f-d4b4-90dcdb9e18dd/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/be/4d/6e/be4d6ec3-2f5b-be2f-d4b4-90dcdb9e18dd/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is2-ssl.mzstatic.com/image/thumb/Music114/v4/be/4d/6e/be4d6ec3-2f5b-be2f-d4b4-90dcdb9e18dd/source/100x100bb.jpg",
+    collectionPrice: 6.99,
+    trackPrice: 1.29,
+    releaseDate: "2018-08-03T07:00:00Z",
+    collectionExplicitness: "explicit",
+    trackExplicitness: "notExplicit",
+    discCount: 1,
+    discNumber: 1,
+    trackCount: 15,
+    trackNumber: 13,
+    trackTimeMillis: 213993,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "R&B/Soul",
+    isStreamable: true,
+  },
+  {
+    wrapperType: "track",
+    kind: "song",
+    artistId: 62820413,
+    collectionId: 663097964,
+    trackId: 663097968,
+    artistName: "Arctic Monkeys",
+    collectionName: "AM",
+    trackName: "Arabella",
+    collectionCensoredName: "AM",
+    trackCensoredName: "Arabella",
+    artistViewUrl:
+      "https://music.apple.com/us/artist/arctic-monkeys/62820413?uo=4",
+    collectionViewUrl:
+      "https://music.apple.com/us/album/arabella/663097964?i=663097968&uo=4",
+    trackViewUrl:
+      "https://music.apple.com/us/album/arabella/663097964?i=663097968&uo=4",
+    previewUrl:
+      "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/c7/0d/3b/c70d3bfd-2805-37a5-913b-197c643c580e/mzaf_4334739950479223904.plus.aac.p.m4a",
+    artworkUrl30:
+      "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/18/8e/72/188e72b5-1ed7-fc59-7591-a35fc7666e0f/source/30x30bb.jpg",
+    artworkUrl60:
+      "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/18/8e/72/188e72b5-1ed7-fc59-7591-a35fc7666e0f/source/60x60bb.jpg",
+    artworkUrl100:
+      "https://is5-ssl.mzstatic.com/image/thumb/Music125/v4/18/8e/72/188e72b5-1ed7-fc59-7591-a35fc7666e0f/source/100x100bb.jpg",
+    collectionPrice: 9.99,
+    trackPrice: 1.29,
+    releaseDate: "2013-09-09T07:00:00Z",
+    collectionExplicitness: "notExplicit",
+    trackExplicitness: "notExplicit",
+    discCount: 1,
+    discNumber: 1,
+    trackCount: 12,
+    trackNumber: 4,
+    trackTimeMillis: 207357,
+    country: "USA",
+    currency: "USD",
+    primaryGenreName: "Alternative",
+    isStreamable: true,
+  },
+];
