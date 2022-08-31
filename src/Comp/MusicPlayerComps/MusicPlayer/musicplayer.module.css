@@ -1,14 +1,28 @@
 .musicPlayer {
     background-color: #282828;
     width: 100vw;
+    min-height: 50px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.centreSection {
+    align-self: center;
+    width: 60vw;
+    height: 100%;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .audio {
-    align-self: center;
     margin: 0 auto;
-    max-width: 800px;
-    width: 50vw;
-    height: 40px;
+    width: 80%;
+    height: 30px;
+}
+
+.sideSection {
+    width: 20vw;
 }

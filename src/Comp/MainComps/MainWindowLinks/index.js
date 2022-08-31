@@ -8,7 +8,7 @@ export default function MainWindowLinks() {
     <div className={css.mainWindowLinks}>
       {/* presentable */}
 
-      <p>Search for your favourite artists in the side bar! </p>
+      <p className={css.instructions}>Search for your favourite artists in the side bar! </p>
       {/* <ul>
         <li>
           <Link to="/">
