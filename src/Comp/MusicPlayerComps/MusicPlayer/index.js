@@ -7,7 +7,7 @@ export default function MusicPlayer({ currentSong, saveFavorite }) {
 
   useEffect(() => {
     async function updateSong() {
-      if (audioRef.current && currentSong.previewUrl) {
+      if (audioRef.current && currentSong && currentSong.previewUrl) {
         audioRef.current.pause();
         audioRef.current.load();
         audioRef.current.play();
@@ -26,7 +26,9 @@ export default function MusicPlayer({ currentSong, saveFavorite }) {
       </div>
       <div className={css.centreSection}>
         <audio className={css.audio} controls ref={audioRef}>
-          <source src={currentSong.previewUrl} type="audio/mpeg" />
+          {currentSong && (
+            <source src={currentSong.previewUrl} type="audio/mpeg" />
+          )}
           Your browser does not support the audio element.
         </audio>
       </div>

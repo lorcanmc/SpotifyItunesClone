@@ -8,7 +8,7 @@ import { dummyFavorites } from "./lib/favorites";
 
 function App() {
   const [query, setQuery] = useState("");
-  const [currentSong, setCurrentSong] = useState({});
+  const [currentSong, setCurrentSong] = useState(null);
   const [favorites, setFavorites] = useState(dummyFavorites);
   const tracks = useFetch(query, 18);
 
